@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container" id="clock">
+		<div class="row" id="row1">
+			<div class="col-xs-2 text-center v-align">
+				<button class="btn btn-success control-icon start" id="start">
+					<i class="fa fa-play" aria-hidden="true" id="play-button"></i>
+				</button>
+			</div>
+			<div class="col-xs-8" id="clock-inner">
+				<p id="display">00:00</p>
+			</div>
+			<div class="col-xs-2 text-center v-align">
+				<button class="btn btn-danger control-icon" id="reset">
+					<i class="fa fa-stop" aria-hidden="true" id="stop-button"></i>
+				</button>
+			</div>	
+		</div>
+		<div id="setValsText" class="row text-center">
+			<div class="col-xs-3 col-xs-offset-2">
+				<p class="text-center" id="workStatus">WORKING</p>
+			</div>
+			<div class="col-xs-3 col-xs-offset-2">
+				<p class="text-center" id="restStatus">RESTING</p>
+			</div>
+		</div>
+		<div class="row" id="setVals">
+			<button class="col-xs-1 col-xs-offset-2 fa fa-minus-circle controls" id="workMinus"></button>
+			<div class="col-xs-1 text-center" id="workDuration">25</div>
+			<button class="col-xs-1 col-xs-offsest-2 fa fa-plus-circle center controls" id="workPlus"></button>
+			<button class="col-xs-1 col-xs-offset-2 fa fa-minus-circle controls" id="restMinus"></button>
+			<div class="col-xs-1 text-center" id="restDuration">5</div>
+			<button class="col-xs-1 col-xs-offsest-2 fa fa-plus-circle center controls" id="restPlus"></button>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:500,400');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+  background-color: #EAEAEA;
+  width: 100%;
+}
+
+#clock {
+  height: 325px;
+  width: 650px;
+  background-color: #474747;
+  margin: 50px auto 0 auto;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#clock-inner {
+  height: 100px;
+  position: relative;
+  background-color: #8C8C8C;
+  border-radius: 35px;
+}
+
+#row1 {
+  margin-top: 50px;
+  position: relative;
+  height: 100px;
+}
+
+#display {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 500;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#setValsText {
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+#workText {
+  color: #FFFF4E;
+}
+
+#setVals {
+  margin-top: 25px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+text-center {
+  padding-left: 0
+}
+
+.glyphicon {
+  font-size: 20px;
+}
+
+.v-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.control-icon {
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 22px
+}
+
+.controls {
+  background-color: #474747;
+  border: none;
+}
+
+.controls:hover {
+  color: grey;
+}
