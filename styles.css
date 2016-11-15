@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:500,400');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
 
 body {
   background-color: #EAEAEA;
@@ -8,8 +9,8 @@ body {
 }
 
 #clock {
-  height: 325px;
-  width: 650px;
+  height: 300px;
+  width: 600px;
   background-color: #474747;
   margin: 50px auto 0 auto;
   border-radius: 25px;
@@ -42,9 +43,9 @@ body {
 
 #setValsText {
   color: white;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Audiowide', cursive;
   font-weight: 400;
-  margin-top: 50px;
+  margin-top: 35px;
   font-size: 16px;
 }
 
@@ -53,9 +54,9 @@ body {
 }
 
 #setVals {
-  margin-top: 25px;
+  margin-top: 10px;
   color: white;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Audiowide', cursive;
   font-weight: 400;
   font-size: 18px;
 }
